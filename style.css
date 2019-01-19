@@ -61,6 +61,7 @@
 
             /* STYLE BODY */
             .body{
+                text-align: center;
                 display: table;
                 margin: 0 auto;
             }
