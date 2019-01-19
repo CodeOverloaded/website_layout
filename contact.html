@@ -2,6 +2,8 @@
 <html>
     <head> 
         <link rel="stylesheet" href="style.css"> </style>
+        <script src="https://cdn.jsdelivr.net/npm/jquery@3.2.1/dist/jquery.min.js"></script>
+	    <script src="contactJS.js"></script>
     </head>
 
     <title> Website </title>
@@ -32,6 +34,23 @@
             <!-- BODY BODY -->
             <div class = "body">
                 <h1> Contact </h1>
+                <form action="https://formspree.io/mli25782@gmail.com" method="POST">
+                    <label>
+                        E-mail
+                        <input type = "email" name = "email" class="email">
+                    </label>
+                    <label>
+                        Subject
+                        <input type = "text" name = "subject" class = "subject">
+                    </label>
+                    <label>
+                        Message
+                        <textarea class="message" name = "message"></textarea>
+                    </label>
+                    <div class="status">
+                    </div>
+                    <button type = "submit" class="submit">Send</button>
+                </form>
             </div>
         </div>
         <div class="space"></div>

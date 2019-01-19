@@ -60,8 +60,10 @@
 
 
             /* STYLE BODY */
-            .body h1{
+            .body{
+                display: table;
                 text-align: center;
+                margin: 0 auto;
             }
 
             .body img{
@@ -70,6 +72,11 @@
                 margin-right: auto;
                 width: 50%;
             }
+            /* Contact Page CSS */
+            label, input, textarea{
+                display:block;
+            }
+            
 
 
             /* STYLE DISCLAIMER */
